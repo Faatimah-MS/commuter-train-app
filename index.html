@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commuter traffic APP</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Commuter Traffic App</h1>
+    </header>
+    <main>
+        <label for="station">Select Train Station:</label>
+        <input id="station" type="search" placeholder="Enter station name" list="stations">
+        <button id="searchBttn">Search</button>
+        <datalist id="stations">
+        </datalist>
+        <div id="results">
+            <h2 id="stHeading">Station Info</h2>
+            <ul id="stationInfo"></ul>
+        </div>
+        <div id="live">
+            <h2 id="trHeading">Train Info</h2>
+            <ul id="lvInfo"></ul>
+        </div>
+    </main>
+    <script src=script.js></script>
+</body>
+</html>
+
+
