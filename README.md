@@ -11,5 +11,5 @@ It has the following features:
 ### Self evaluation - 30 points
 
 ### Links
-- Github:
-- Netlify: 
+- Github:https://github.com/Faatimah-MS/commuter-train-app
+- Netlify: https://commuter-train-app.netlify.app/
